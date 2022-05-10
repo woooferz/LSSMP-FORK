@@ -7,6 +7,9 @@ This project is a recreation of the plugin found in this series: https://www.you
 
 This is not official and is purely fan made, do not go ask Parrot for updates!
 
+## Additions `(By woooferz)`
+All I did was remove the gaining hearts feature, so yeah anyway Ima go eat waffles!
+
 # NOTE
 
   - You are allowed to edit this plugin only for private use
