@@ -5,7 +5,6 @@ import me.ikevoodoo.lssmp.TranslationManager
 import me.ikevoodoo.lssmp.utils.EliminationUtils.Companion.convertHearts
 import me.ikevoodoo.lssmp.utils.EliminationUtils.Companion.decreaseMaxHealth
 import me.ikevoodoo.lssmp.utils.EliminationUtils.Companion.getMaxHealthAttribute
-import me.ikevoodoo.lssmp.utils.EliminationUtils.Companion.increaseKillerHealth
 import me.ikevoodoo.lssmp.utils.EliminationUtils.Companion.increaseMaxHealth
 import me.ikevoodoo.lssmp.utils.EliminationUtils.Companion.isEliminated
 import me.ikevoodoo.lssmp.utils.EliminationUtils.Companion.setMaxHealthAttribute
@@ -56,7 +55,7 @@ class PlayerListener: Listener {
             return
 
         player.decreaseMaxHealth(false, attacker)
-        player.increaseKillerHealth(attacker)
+        // player.increaseKillerHealth(attacker)
 
         if (player.tryEliminate(false, attacker)) {
             event.isCancelled = true
