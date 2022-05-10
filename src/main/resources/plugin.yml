@@ -2,8 +2,8 @@ name: Lifesteal-Smp-Plugin
 main: me.ikevoodoo.lssmp.LSSMP
 version: ${project.version}
 api-version: 1.16
-author: IkeVoodoo
-description: Lifesteal SMP Plugin
+author: IkeVoodoo, Wooferz
+description: Lifesteal SMP Plugin & Edited by Wooferz
 
 commands:
   lsreload:
